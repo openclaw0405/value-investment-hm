@@ -336,33 +336,16 @@ tbody tr:hover { background: rgba(125, 211, 252, 0.03); }
     grid-template-columns: 1fr;
   }
   .sidebar {
-    position: sticky;
-    top: 0;
-    z-index: 20;
-    height: auto;
-    border-right: none;
-    border-bottom: 1px solid var(--line);
-    padding: 12px 12px 10px;
-  }
-  .toc {
-    flex-direction: row;
-    overflow-x: auto;
-    gap: 8px;
-    padding-bottom: 4px;
-    -webkit-overflow-scrolling: touch;
-  }
-  .toc a {
-    flex: 0 0 auto;
-    white-space: nowrap;
-    padding: 7px 10px;
+    display: none;
   }
   .content {
-    padding: 12px;
+    padding: 10px;
   }
   .report-card,
   .container {
-    padding: 16px;
-    border-radius: 20px;
+    padding: 16px 14px;
+    border-radius: 18px;
+    max-width: 100%;
   }
   .card,
   .hero,
@@ -370,14 +353,14 @@ tbody tr:hover { background: rgba(125, 211, 252, 0.03); }
   .container,
   .sidebar-card,
   .header {
-    border-radius: 20px;
+    border-radius: 18px;
   }
   .table-wrap {
-    margin-left: -4px;
-    margin-right: -4px;
+    margin-left: -2px;
+    margin-right: -2px;
   }
   table {
-    min-width: 520px;
+    min-width: 480px;
   }
 }
 
